@@ -6,7 +6,6 @@
 */
 export function appendToBody(tag, content, count) {
     let ttag;
-    const body = document.body;
     for (let i = 0; i < count; i++) {
         ttag = document.createElement(tag.toString());
         ttag.innerHTML = content.toString();
